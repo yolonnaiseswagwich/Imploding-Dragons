@@ -65,7 +65,6 @@ h1 a {
 	color: #feb24c; }
 .center{
         display: block;
-    	position: relative;
 	text-align: center;
 }
 h2 {
@@ -81,6 +80,7 @@ h2 a {
 	color: #fc4e2a; }
 ul.topmenu, ul.topmenu ul { 
 	display: inline; 
+    	position: relative;
 	text-align: center; 
 	margin: 0px; 
 	padding: 0px; 
