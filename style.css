@@ -115,7 +115,10 @@ ul.topmenu li {
 ul.topmenu li ul { 
 	display: block; 
 	padding: 0.4em;
-	
+	position: absolute; 
+	right: 0;
+	top: 125px;
+	left: 0;
 	font-size:0.5em;
 	visibility: hidden; 
 	width: auto; 
