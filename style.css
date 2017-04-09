@@ -14,7 +14,6 @@ footer{
 	background-color: #111;
 }
 body {
-	margin-bottom: 30px; 
 	font-family: Consolas;
 	font-size: 14px;
 	color: #fc4e2a;
@@ -60,6 +59,7 @@ ul.topmenu, ul.topmenu ul {
 	font-size:2.5em; 
 	border : 1px solid #fc4e2a;}
 ul.topmenu li { 
+	margin-top : 0.3em;
 	display: inline; 
 	list-style: none; 
 	position: relative; 
@@ -84,7 +84,7 @@ ul.topmenu a {
 //}
 ul.topmenu li ul li { 
 	text-align:left; 
-	margin: 0 0 0 -1.5em; 
+	margin: 0 0 0 0 
 	padding: 0; 
 	display: block; 
 	margin : 0px 0px 5px 0px; 
