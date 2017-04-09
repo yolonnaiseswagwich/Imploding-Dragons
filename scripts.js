@@ -1,9 +1,9 @@
 function cycleBackgrounds() {
-		var index = 0;
+	var index = 0;
 
-	    	$imageEls = $('.toggle-image'); // Get the images to be cycled.
+	$imageEls = $('.toggle-image'); // Get the images to be cycled.
 
-	    	setInterval(function () {
+	setInterval(function () {
 		// Get the next index.  If at end, restart to the beginning.
 		index = index + 1 < $imageEls.length ? index + 1 : 0;
 		// Show the next image.
@@ -11,5 +11,10 @@ function cycleBackgrounds() {
 		// Hide the previous image.
 		$imageEls.eq(index - 1).removeClass('show');
 
-	    }, 10000);
-	};	
+	}, 5000);
+};
+
+// Document Ready.
+$(function () {
+	cycleBackgrounds();
+});
