@@ -62,7 +62,9 @@ h1 {
 	padding-right : 0.2em;
 	text-shadow: 2px 2px 10px #777;
 	background-color: #222; 
-	border : 1px solid #fc4e2a;
+	border-left : 1px solid #fc4e2a;
+	border-right : 1px solid #fc4e2a;
+	border-top : 1px solid #fc4e2a;
 }
 h1 a {
 	text-decoration: none;
