@@ -216,7 +216,7 @@ ul.topmenu li.submenu:hover ul li:hover a {
 }
 
 
-.eigth-image {
+.eighth-image {
 	background-image: url('img8.jpg');
 	z-index: -1;
 	opacity: 0;
@@ -255,6 +255,6 @@ ul.topmenu li.submenu:hover ul li:hover a {
 }
 
 
-.eigth-image.show {
+.eighth-image.show {
 	opacity: 1;
 }
