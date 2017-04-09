@@ -67,6 +67,11 @@ h1 a {
         display: block;
 	text-align: center;
 }
+.centercontext{
+	margin : 20px;
+        display: block;
+	text-align: center;
+}
 h2 {
 	display: block;
 	text-align: center;
