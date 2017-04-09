@@ -19,7 +19,7 @@ body {
 	color: #fc4e2a;
 }
 h1 {
-    	display: block;
+        display: inline-block;
 	text-align: center;
 	font-size: 5em;
 	color : #feb24c;
