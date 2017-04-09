@@ -87,7 +87,7 @@ h2 a {
 ul.topmenu, ul.topmenu ul { 
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	top: 0;
 	left: 0;
 	display: block;    	
 	text-align: center; 
