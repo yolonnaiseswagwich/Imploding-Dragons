@@ -49,7 +49,7 @@ body {
 	border : 1px solid #fc4e2a;
 }
 h1 {
-        display: inline;
+        display: block;
 	text-align: center;
 	font-size: 5em;
 	color : #feb24c;
@@ -67,7 +67,7 @@ h1 a {
 	text-align: center;
 }
 h2 {
-	display: inline;
+	display: block;
 	text-align: center;
 	font-size: 3em;
 	text-shadow: 2px 2px 3px #666;
@@ -78,7 +78,7 @@ h2 a {
 	text-decoration: none;
 	color: #fc4e2a; }
 ul.topmenu, ul.topmenu ul { 
-	display: inline; 
+	display: block; 
 	text-align: center; 
 	margin: 0px; 
 	padding: 0px; 
