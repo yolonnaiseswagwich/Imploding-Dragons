@@ -138,38 +138,3 @@ ul.topmenu li.submenu:hover ul li:hover a {
 .ic.show {
     opacity: 1;
 }
-.id {
-    background-image: url('img4.jpg');
-    z-index: -5;
-}
-.id.show {
-    opacity: 1;
-}
-.ie {
-    background-image: url('img5.jpg');
-    z-index: -4;
-}
-.ie.show {
-    opacity: 1;
-}
-.if {
-    background-image: url('img6.jpg');
-    z-index: -3;
-}
-.if.show {
-    opacity: 1;
-}
-.ig {
-    background-image: url('img7.jpg');
-    z-index: -2;
-}
-.ig.show {
-    opacity: 1;
-}
-.ih {
-    background-image: url('img8.jpg');
-    z-index: -1;
-}
-.ih.show {
-    opacity: 1;
-}
