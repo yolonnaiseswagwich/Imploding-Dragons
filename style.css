@@ -85,6 +85,11 @@ h2 a {
 	color: #fc4e2a; 
 }
 ul.topmenu, ul.topmenu ul { 
+	position: absolute;
+	top : 10%;
+	right: 0;
+	bottom: 0;
+	left: 0;
 	display: block;    	
 	text-align: center; 
 	margin: 0px; 
