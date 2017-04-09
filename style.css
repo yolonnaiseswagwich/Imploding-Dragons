@@ -23,6 +23,8 @@ h1 {
 	text-align: center;
 	font-size: 5em;
 	color : #feb24c;
+	padding-left : 0.2em;
+	padding-right : 0.2em;
 	text-shadow: 2px 2px 10px #777;
 	background-color: #111;
 	border : 1px solid #fc4e2a;
@@ -53,7 +55,10 @@ ul.topmenu, ul.topmenu ul {
 	text-shadow: 1px 1px 3px #666;
 	background-color: #333; 
 	font-size:2.5em; 
-	border : 1px solid #fc4e2a;}
+	border-left : 1px solid #fc4e2a;
+	border-right : 1px solid #fc4e2a;
+	border-bottom : 1px solid #fc4e2a;
+}
 ul.topmenu li { 
 	margin-top : 0.3em;
 	display: inline; 
