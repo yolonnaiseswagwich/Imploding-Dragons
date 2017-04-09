@@ -115,12 +115,12 @@ ul.topmenu li {
 ul.topmenu li ul { 
 	display: block; 
 	padding: 0.4em;
-	position: absolute; 
+	
 	font-size:0.5em;
 	visibility: hidden; 
 	width: auto; 
 	background-color: #222; 
-	border : 1px solid 
+	border : 1px solid ;
 	border-color : #fc4e2a; 
 	border-top: 0; }
 ul.topmenu a { 
