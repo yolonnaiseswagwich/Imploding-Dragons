@@ -44,7 +44,7 @@ h2 a {
 	text-decoration: none;
 	color: #fc4e2a; }
 ul.topmenu, ul.topmenu ul { 
-	display: block; 
+	display: inline; 
 	text-align: center; 
 	margin: 0px; 
 	padding: 0px; 
