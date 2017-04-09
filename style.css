@@ -38,7 +38,6 @@ body {
 	right: 0;
 	top: 0;
 	left: 0;
-	bottom: 93%;
         display: inline;
 	text-align: center;
 	font-size: 5em;
@@ -87,9 +86,8 @@ h2 a {
 }
 ul.topmenu, ul.topmenu ul { 
 	position: absolute;
-	bottom: 87%;
 	right: 0;
-	top: 7%;
+	top: 120px;
 	left: 0;
 	display: block;    	
 	text-align: center; 
