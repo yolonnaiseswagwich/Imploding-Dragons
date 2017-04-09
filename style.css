@@ -3,15 +3,15 @@ p {
 a {
 	color: #feb24c; }
 footer{
+        display: inline;
 	text-align: center;
 	font-family: Consolas;
 	font-size: 14px;
 	color: #fc4e2a;
-	margin: 0;
-	margin-top: 40px;
-	border-top-style: solid;
-	border-top-width: 0.1em;
-	border-top-color: #fc4e2a;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: #fc4e2a;
+	background-color: #111;
 }
 body {
 	font-family: Consolas;
@@ -25,6 +25,9 @@ h1 {
 	color : #feb24c;
 	text-shadow: 2px 2px 10px #777;
 	background-color: #111;
+	border-style: solid;
+	border-width: 0.5em;
+	border-color: #fc4e2a;
 }
 h1 a {
 	text-decoration: none;
@@ -39,6 +42,9 @@ h2 {
 	font-size: 3em;
 	text-shadow: 2px 2px 3px #666;
 	background-color: #111;
+	border-style: solid;
+	border-width: 0.2em;
+	border-color: #fc4e2a;
 }
 h2 a {
 	text-decoration: none;
