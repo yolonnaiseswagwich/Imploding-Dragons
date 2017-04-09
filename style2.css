@@ -17,19 +17,19 @@
 
 /* Styles for the specific images. */
 .first-image {
-	background-image: url('http://s169923.gridserver.com/images/dtlarooftop.jpg');	
+	background-image: url('img1.jpg');	
 	z-index: -3;
 	opacity: 0;
 }
 
 .second-image {
-	background-image: url('http://s169923.gridserver.com/images/winterbarrel.jpg');
+	background-image: url('img2.jpg');
 	z-index: -2;
 	opacity: 0;
 }
 
 .third-image {
-	background-image: url('http://s169923.gridserver.com/images/catalinaharbor.jpg');
+	background-image: url('img3.png');
 	z-index: -1;
 	opacity: 0;
 }
