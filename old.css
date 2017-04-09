@@ -1,0 +1,212 @@
+p {
+	color: #fc4e2a; }
+a {
+	color: #feb24c; }
+footer{
+	text-align: center;
+	font-family: Consolas;
+	font-size: 14px;
+	color: #fc4e2a;
+	background-color: #111;
+	margin: 0;
+	margin-top: 40px;
+	border-top-style: solid;
+	border-top-width: 0.1em;
+	border-top-color: #fc4e2a;
+}
+body {
+	font-family: Consolas;
+	font-size: 14px;
+	color: #fc4e2a;
+	background-color: #111; }
+h1 {
+	text-align: center;
+	font-size: 5em;
+	color : #feb24c;
+	margin: 0;
+	margin-bottom: 7px;
+	padding: 4px;
+	letter-spacing: 0.3em;
+	text-shadow: 2px 2px 10px #777;
+	background-color: #111;
+	border-bottom-style: solid;
+	border-bottom-width: 0.5em;
+	border-bottom-color: #fc4e2a; }
+h1 a {
+	text-decoration: none;
+	color: #feb24c; }
+h2 {
+	text-align: center;
+	font-size: 3em;
+	margin: 0;
+	margin-bottom: 4px;
+	padding: 2px;
+	text-shadow: 2px 2px 3px #666;
+	letter-spacing: 0.2em;
+	background-color: #111;
+	border-bottom-style: solid;
+	border-bottom-width: 0.2em;
+	border-bottom-color: #fc4e2a; }
+h2 a {
+	text-decoration: none;
+	color: #fc4e2a; }
+ul.topmenu, ul.topmenu ul { 
+	display: block; 
+	text-align: center; 
+	margin: 0px; 
+	padding: 0px; 
+	text-shadow: 1px 1px 3px #666;
+	background-color: #333; 
+	font-size:2.5em; 
+	border : 1px solid #fc4e2a;}
+ul.topmenu li { 
+	display: inline; 
+	list-style: none; 
+	position: relative; 
+	margin: 0px; 
+	padding : 0px 15px 0px 0px; }
+ul.topmenu li ul { 
+	display: block; 
+	padding: 0.4em;
+	position: absolute; 
+	font-size:0.5em;
+	visibility: hidden; 
+	width: auto; 
+	background-color : #333; 
+	border : 1px solid 
+	border-color : #fc4e2a; 
+	border-top: 0; }
+ul.topmenu a { 
+	color : #fc4e2a;
+	text-decoration:none;	}
+//ul.topmenu:hover a{
+//	color : #e31a1c; 
+//}
+ul.topmenu li ul li { 
+	text-align:left; 
+	margin: 0 0 0 -1.5em; 
+	padding: 0; 
+	display: block; 
+	margin : 0px 0px 5px 0px; 
+	background-color : #333; }
+ul.topmenu li ul li a {
+	display: block; 
+	margin: 0; 
+	padding: 0 0 0 0;
+	text-align: center;
+	color : #feb24c; }
+ul.topmenu li.submenu:hover ul { 
+	left: 0; 
+	visibility: visible; }
+ul.topmenu li.submenu:hover ul li { 
+	margin-bottom: 0px; }
+ul.topmenu li.submenu:hover ul li:hover { 
+	//background-color: #aaa; }
+ul.topmenu li.submenu:hover ul li:hover a { 
+	color: #e31a1c; }
+/* Basic background image styling. */
+.background-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Styles for the alternating / transition effect. */
+.toggle-image {
+ 	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+ 	height: 100%;
+	transition: opacity 1s ease-in-out;
+}
+
+/* Styles for the specific images. */
+.first-image {
+	background-image: url('img1.jpg');	
+	z-index: -3;
+	opacity: 0;
+}
+
+.second-image {
+	background-image: url('img2.jpg');
+	z-index: -2;
+	opacity: 0;
+}
+
+.third-image {
+	background-image: url('img3.png');
+	z-index: -1;
+	opacity: 0;
+}
+
+.fourth-image {
+	background-image: url('img4.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+
+
+.fifth-image {
+	background-image: url('img5.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+
+
+.sixth-image {
+	background-image: url('img6.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+
+
+.seventh-image {
+	background-image: url('img7.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+
+
+.eigth-image {
+	background-image: url('img8.jpg');
+	z-index: -1;
+	opacity: 0;
+}
+
+.first-image.show {
+	opacity: 1;
+}
+
+.second-image.show {
+	opacity: 1;
+}
+
+.third-image.show {
+	opacity: 1;
+}
+
+.fourth-image.show {
+	opacity: 1;
+}
+
+
+.fifth-image.show {
+	opacity: 1;
+}
+
+
+.sixth-image.show {
+	opacity: 1;
+}
+
+
+.seventh-image.show {
+	opacity: 1;
+	opacity: 0;
+}
+
+
+.eigth-image.show {
+	opacity: 1;
+}
