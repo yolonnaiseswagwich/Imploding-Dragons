@@ -14,7 +14,7 @@ footer{
 	background-color: #111;
 }
 body {
-	
+	margin-bottom: 30px; 
 	font-family: Consolas;
 	font-size: 14px;
 	color: #fc4e2a;
