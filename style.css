@@ -109,19 +109,12 @@ ul.topmenu li {
 	margin-top : 0.3em;
 	display: inline; 
 	list-style: none; 
-	position: absolute; 
-	right: 0;
-	top: 125px;
-	left: 0;
-	margin: 0px; 
+	position: relative;
 	padding : 0px 15px 0px 0px; }
 ul.topmenu li ul { 
 	display: block; 
 	padding: 0.4em;
 	position: absolute; 
-	right: 0;
-	top: 125px;
-	left: 0;
 	font-size:0.5em;
 	visibility: hidden; 
 	width: auto; 
@@ -140,6 +133,10 @@ ul.topmenu li ul li {
 	margin: 0 0 0 0 
 	padding: 0; 
 	display: block; 
+	position: absolute; 
+	right: 0;
+	top: 125px;
+	left: 0;
 	margin : 0px 0px 5px 0px; 
 	background-color: #222; 
 }
