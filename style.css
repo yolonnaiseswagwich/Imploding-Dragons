@@ -3,6 +3,7 @@ p {
 a {
 	color: #feb24c; }
 footer{
+	margin : 100%
         display: inline;
 	text-align: center;
 	font-family: Consolas;
