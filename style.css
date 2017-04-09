@@ -52,7 +52,7 @@ h2 a {
 ul.topmenu, ul.topmenu ul { 
 	display: inline; 
 	text-align: center; 
-	margin: 0px; 
+	margin-top: 2em; 
 	padding: 0px; 
 	text-shadow: 1px 1px 3px #666;
 	background-color: #333; 
