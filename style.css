@@ -109,7 +109,10 @@ ul.topmenu li {
 	margin-top : 0.3em;
 	display: inline; 
 	list-style: none; 
-	position: relative; 
+	position: absolute; 
+	right: 0;
+	top: 125px;
+	left: 0;
 	margin: 0px; 
 	padding : 0px 15px 0px 0px; }
 ul.topmenu li ul { 
